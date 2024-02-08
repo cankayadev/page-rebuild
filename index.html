@@ -19,36 +19,50 @@
     <title>Frontend Mentor | Interactive card details form</title>
   </head>
   <body>
-    <div class="desktopleft">
-      <img src="./images/bg-main-desktop.png" alt="" class="desktop__img" />
-      <div class="overlay-images">
-        <img src="./images/bg-card-front.png" alt="" class="card-front__img" />
-        <img src="./images/bg-card-back.png" alt="" class="card-back__img" />
+    <div class="container">
+      <div class="imgs">
+        <img
+          src="./images/bg-main-desktop.png"
+          alt=""
+          class="container__img1"
+        />
+        <div class="overlay__imgs">
+          <img
+            src="./images/bg-card-front.png"
+            alt=""
+            class="container__img2"
+          />
+          <img src="./images/bg-card-back.png" alt="" class="container__img3" />
+        </div>
       </div>
-    </div>
-
-    <div class="desktopright">
-      <div class="form">
-        <input
-          type="text"
-          name="Cardholder name"
-          id=""
-          class="form__element cardholder-name"
-        />
-        <input
-          type="text"
-          name="Card number"
-          id=""
-          class="form__element card-number"
-        />
-        <input
-          type="text"
-          name="Exp. date (mm/yy)"
-          id=""
-          class="form__element exp-month"
-        />
-        <input type="text" name="" id="" class="form__element inputexp-year" />
-        <input type="text" name="cvc" id="" class="form__element cvc" />
+      <div class="desktopright">
+        <div class="form">
+          <input
+            type="text"
+            name="Cardholder name"
+            id=""
+            class="form__element cardholder-name"
+          />
+          <input
+            type="text"
+            name="Card number"
+            id=""
+            class="form__element card-number"
+          />
+          <input
+            type="text"
+            name="Exp. date (mm/yy)"
+            id=""
+            class="form__element exp-month"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            class="form__element inputexp-year"
+          />
+          <input type="text" name="cvc" id="" class="form__element cvc" />
+        </div>
       </div>
     </div>
   </body>
