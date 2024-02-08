@@ -40,9 +40,69 @@ img {
     height: 100%;
 }
 
+.img2-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+.card-number-display {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+
+.card-number-block {
+    color: #ffffff;
+}
+
 .container__img2,
 .container__img3 {
+    position: relative;
+}
+
+.card-info {
     position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.svg-icon {
+    align-self: flex-start;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.card-number-display {
+    align-self: flex-start;
+}
+
+.card-holder-name,
+.card-expiry-date {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.card-holder-name {
+    align-self: flex-start;
+}
+
+.card-expiry-date {
+    align-self: flex-end;
+    position: absolute;
+    right: 20px;
+    top: auto;
 }
 
 .desktopright {
